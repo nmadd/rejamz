@@ -1,7 +1,7 @@
 import React from 'react';
-import store from '../../redux/store/store';
-import {playPauseCurrentSong, muteSound} from '../../redux/actions/actions';
-import PlayPauseButton from '../PlayPauseButton.jsx';
+import store from '../redux/store/store';
+import {playPauseCurrentSong, muteSound} from '../redux/actions/actions';
+import PlayPauseButton from './PlayPauseButton.jsx';
 
 const PlayerView = (props) => {
   const dispatchPlayPause = () => store.dispatch(playPauseCurrentSong());

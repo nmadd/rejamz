@@ -1,9 +1,9 @@
 import React from 'react';
 import $ from 'jQuery';
-import {Navbar} from '../index';
-import {setCurrentSong} from '../../redux/actions/actions';
-import store from '../../redux/store/store';
-import PlayerBarContainer from '../../containers/PlayerBarContainer.jsx';
+import {Navbar} from './index';
+import {setCurrentSong} from '../redux/actions/actions';
+import store from '../redux/store/store';
+import PlayerBarContainer from '../containers/PlayerBarContainer.jsx';
 
 const App = React.createClass({
   componentDidMount() {

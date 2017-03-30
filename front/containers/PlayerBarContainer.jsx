@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import store from '../redux/store/store';
-import PlayerBar from '../components/player-bar/PlayerBar.jsx';
+import {PlayerBar} from '../components';
 
 /**
 @summary controls for currently playing song

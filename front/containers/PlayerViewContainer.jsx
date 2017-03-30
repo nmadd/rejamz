@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import store from '../redux/store/store';
-import PlayerView from '../components/player-view/PlayerView.jsx';
+import {PlayerView} from '../components';
 
 
 /**

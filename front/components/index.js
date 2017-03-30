@@ -1,7 +1,9 @@
-import App from './app/App.jsx';
-import Home from './home/Home.jsx';
-import Login from './login/Login.jsx';
-import Routes from './routes/Routes.jsx';
-import Navbar from './navbar/Navbar.jsx';
+import App from './App.jsx';
+import Login from './Login.jsx';
+import Navbar from './Navbar.jsx';
+import PlayerBar from './PlayerBar.jsx';
+import PlayerView from './PlayerView.jsx';
+import PlayPauseButton from './PlayPauseButton.jsx';
+import Routes from './Routes.jsx';
 
-export {App, Home, Login, Routes, Navbar};
+export {App, Login, Navbar, PlayerBar, PlayerView, PlayPauseButton, Routes};
